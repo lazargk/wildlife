@@ -29,17 +29,27 @@ header {
     height: 60px;
 }
 
-.header-logo {
+.logo {
     font-family: 'Roboto', sans-serif;
     color: #fff;
     font-size: 32px;    
     text-transform: uppercase;
     display: flex;
-    align-items: center;
+    align-items: center;    
+    width: 240px;
 }
 
-.header-logo span + span{
-    margin-left: 15px;
+.logo-img{
+    width: 68px;
+    height: 58px;
+    margin-right: 15px;
+}
+
+.logo-text{
+    width: 155px;
+    height: 60px;
+    display: flex;
+    align-items: center;
 }
 
 .header-menu {    
@@ -244,3 +254,13 @@ ul.header-menu li + li {
     border: 1px solid #CD6326;
     border-radius: 0 5px 5px 0;
 }
+
+.footer {
+    background-image: url(../images/footer-bg.jpg);
+    height: 360px;
+}
+
+.footer-container {
+    width: 1200px;
+}
+
