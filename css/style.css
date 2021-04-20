@@ -117,3 +117,130 @@ ul.header-menu li + li {
     /* display: inline-block; */
     
 }
+
+.articles-container {
+    background-color: #cccccc;
+    height: 1368px;
+    padding-top: 120px;
+}
+
+.article-title {
+    color: #333333;
+    font-size: 48px;
+    line-height: 72px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.article-text {
+    padding-top: 20px;
+    text-align: center;
+    color: #666666;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.article-slider {
+    padding-top: 120px;
+    padding-left: 122px;
+    padding-right: 122px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider__arrow-left,
+.slider__arrow-right
+{
+    display: flex;
+    align-items: center;
+}
+
+.article-slider .slider {
+    display: flex;
+    justify-content: space-between;
+    width: 1020px;
+    align-items: center;
+    height: 360px;
+}
+
+.article-slider__item {
+    height: 360px;
+}
+
+.article-slider__item-text {
+    margin-top: -113px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.article-slider__item-text h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    color: #F7F7F7;
+    margin-bottom: 10px;
+    line-height: 36px;
+}
+
+.article-slider__item-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #F7F7F7;
+    line-height: 27px;
+}
+
+.notification {
+    margin-top: 239px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notification__title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 27px;
+    line-height: 40px;
+    color: #333333;
+    margin-bottom: 59px;
+}
+
+.notification__subscribe {
+    height: 60px;
+    width: 660px;
+    display: flex;
+    flex-direction: row;
+}
+
+.notification__subscribe-container-email {
+    border: 1px solid #666666;
+    width: 540px;
+    height: 60px;
+    padding-left: 15px;
+}
+
+.notification__subscribe-container-email input {
+    height: 60px;
+    width: 510px;
+    border: none;
+    background-color: transparent;
+    font-size: 23px;
+    line-height: 27px;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+}
+
+.notification__subscribe-container-email input:focus{
+    outline: none;
+}
+
+.notification__subscribe button {
+    width: 120px;
+    height: 60px;
+    color: #F7F7F7;
+    font-size: 23px;
+    line-height: 27px;
+    background-color: #CD6326;
+    border: 1px solid #CD6326;
+    border-radius: 0 5px 5px 0;
+}
