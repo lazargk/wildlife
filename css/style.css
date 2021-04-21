@@ -78,6 +78,10 @@ ul.header-menu li + li {
     color: #fff;
 }
 
+.header-menu__search img:hover {
+    cursor: pointer;
+}
+
 .header-menu__btn-signin a {
     font-family: 'Roboto', sans-serif;
     padding: 6px 23px ;
@@ -107,26 +111,20 @@ ul.header-menu li + li {
 }
 
 .header-btn{
-    /* margin-top: 49px; */
-    /* height: 60px;
-    width: 160px; */
-    /* background-color: #CD6326; */
-    /* border-radius: 5px; */
-    position: relative;
+    
 }
 
 .header-btn__donate {
-    display: block;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    height: 60px;
+    display: block;    
     width: 160px;
     color: #F7F7F7;
     font-size: 23px;
     font-family: 'Roboto', sans-serif;
     line-height: 27px;
+    padding-top: 16.5px;
+    padding-bottom: 16.5px;
     text-decoration: none;
+    text-align: center;
     background-color: #CD6326;
     border-radius: 5px;
 }
